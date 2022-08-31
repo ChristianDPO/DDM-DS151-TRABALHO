@@ -10,7 +10,7 @@ import TrendingScreen from './src/screens/TrendingScreen';
 import MoviesScreen from './src/screens/MoviesScreen';
 import RatingScreen from './src/screens/RatingScreen';
 import ProfileScreen from './src/screens/ProfileScreen';
-
+import DetailsScreen from './src/screens/DetailsScreen';
 
 const Stack = createNativeStackNavigator();
 const Tab = createBottomTabNavigator();
@@ -30,15 +30,14 @@ function HomeScreen(){
   );
 }
 
-
-
 function App() {
   return (
     <SafeAreaProvider>
       <NavigationContainer>
-        <Stack.Navigator screenOptions={{headerShown: false}}>
-          <Stack.Screen name="Login" component={LoginScreen} />
-          <Stack.Screen name="Home" component={HomeScreen} options={{ headerShown: false }}/>
+        <Stack.Navigator>
+          <Stack.Screen name="Login" component={LoginScreen} options={{headerShown: false}}/>
+          <Stack.Screen name="Home" component={HomeScreen} options={{headerShown: false}}/>
+          <Stack.Screen name="Details" component={DetailsScreen}/>
         </Stack.Navigator>
       </NavigationContainer>
     </SafeAreaProvider>
