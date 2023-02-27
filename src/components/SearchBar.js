@@ -10,7 +10,7 @@ const SearchBar = ({onChangeText, onEndEditing, value}) => {
       <TextInput 
         autoCapitalize="none"
         autoCorrect={false}
-        placeholder="Search"
+        placeholder="Buscar"
         style={styles.textInput}
         
         //valor da caixa de texto

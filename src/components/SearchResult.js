@@ -19,7 +19,8 @@ const styles = StyleSheet.create({
     alignItems:"center", 
     margin: 3, 
     borderWidth: 1, 
-    borderRadius: 10
+    borderRadius: 10,
+    borderColor: '#363636'
   },
   imagem: {
     width: 80, 
@@ -29,7 +30,8 @@ const styles = StyleSheet.create({
   },
   texto: {
     fontSize: 15, 
-    marginLeft: 5
+    marginLeft: 5,
+    color: 'white'
   }
 });
 
