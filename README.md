@@ -48,7 +48,7 @@ Não é necessário, mas para testar o aplicativo em um ambiente nativo, pode-se
 
 # Rodando
 
-Antes de tudp, deve-se ter [uma conta cadastrada no site da TheMovieDatabase](https://www.themoviedb.org/u/ChristianDPO).
+Antes de tudo, deve-se ter [uma conta cadastrada no site da TheMovieDatabase](https://www.themoviedb.org/u/ChristianDPO).
 Para os dados da API serem pegos corretamente, deve ser criado um arquivo  `.env.local` no diretório raiz com [a chave da API do TheMovieDatabase](https://www.themoviedb.org/settings/api).
 O conteúdo do arquivo deve ser da forma:
 ```
